@@ -69,6 +69,14 @@ h1 {
     transition: background-color 0.5s, transform 0.5s;
   }
 
+.parfum-picture:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.5s;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 .perfume-text {
     letter-spacing: 5px;
     font-weight: 500;
@@ -115,3 +123,8 @@ h1 {
     color: rgba(61, 129, 104, 1);
     font-family: "Fraunces", serif;
 }
+
+a {
+    text-decoration: none;
+}
+
